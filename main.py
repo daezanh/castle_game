@@ -235,7 +235,7 @@ if __name__ == '__main__':
     player = turtle.Turtle()
     draw_player(PLAYER_position, get_step(grid))
 
-    inventory = ['Inventory']
+    inventory = ['Inventaire']
     display_inventory()
     objects_dict = create_data_dict(CONFIGS.OBJECTS_FILE)
     objects_counter = [len(objects_dict)]
